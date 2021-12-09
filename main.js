@@ -18,7 +18,7 @@ yargs.command({
 	    grades: {
 			describe:'student grades',
 			demandOption: true,
-			type: [int],
+			type: '[int]',
 		},
   		  comment: {
 			describe:'student comment',
